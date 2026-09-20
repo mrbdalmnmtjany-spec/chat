@@ -1,0 +1,16 @@
+# تبعيات (بتتنزل تاني بـ npm install)
+node_modules/
+
+# ملفات فيها أسرار (باسوردات وداتابيز ومفاتيح) — دي أهم سطر في الملف ده
+.env
+.env.local
+.env.*.local
+
+# ناتج الـ build
+dist/
+build/
+
+# ملفات النظام والمحررات
+.DS_Store
+*.log
+.vscode/
